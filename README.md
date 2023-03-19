@@ -10,9 +10,11 @@ torchvision==0.9.1
 ```
 python3 test.py --content input/content/giga.jpg --style input/style/style1.jpg
 ```
-Результаты обработки хранятся в ./out
-```
-### Reference
+Результаты обработки хранятся в ./output
+
+
+### Testing 
+
 Paper Link [pdf](https://arxiv.org/abs/2105.14576)<br> 
 ```
 @inproceedings{deng2021stytr2,
