@@ -13,7 +13,7 @@ python3 test.py --content input/content/giga.jpg --style input/style/style1.jpg
 Результаты обработки хранятся в ./output
 
 
-### Testing 
+### References 
 
 Paper Link [pdf](https://arxiv.org/abs/2105.14576)<br> 
 ```
