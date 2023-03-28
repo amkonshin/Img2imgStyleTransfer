@@ -10,9 +10,8 @@ python -m venv .venv --prompt sd
 pip install -U pip
 pip install -r requirements.txt
 git clone https://github.com/amkonshin/Img2imgStyleTransfer.git
-python Img2imgStyleTransfer/gradio_image_mixer.py
 ```
 to run style transfer:
 ```bash
-python  scripts/local_image_mixer.py --content scripts/style/img1.jpeg --style scripts/style/img2.jpeg --steps 35
+python  Img2imgStyleTransfer/local_image_mixer.py --content scripts/style/img1.jpeg --style scripts/style/img2.jpeg --steps 35
 ```
